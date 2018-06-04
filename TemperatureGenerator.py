@@ -16,7 +16,7 @@ step_value = 3
 
 mean_monthly_temp_C_Sydney = [26.5, 26.5, 25.4, 23.3, 20.6, 18.0, 17.4, 18.9, 21.2, 22.8, 23.8, 25.5]
 bound_monthly_temp_C_Sydney = [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5] # Simulated number of degrees C above and below the mean beyond which random walks are blocked
-# Mean Masd Monthly Temperature for Sydney (Observatory Hill) aggregated from 1980 to 2010
+# Mean Max Monthly Temperature for Sydney (Observatory Hill) aggregated from 1980 to 2010
 # See http://www.bom.gov.au/jsp/ncc/cdio/cvg/av?p_stn_num=066062&p_prim_element_index=0&p_comp_element_index=0&redraw=null&p_display_type=statistics_summary&normals_years=1981-2010&tablesizebutt=normal
 
 yearly_mean_temp_data = list(zip(months_names, months_days, mean_monthly_temp_C_Sydney, bound_monthly_temp_C_Sydney))
